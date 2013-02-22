@@ -19,6 +19,7 @@
 		9A10AC9416D7040A004A975A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A10AC9216D7040A004A975A /* MainStoryboard_iPhone.storyboard */; };
 		9A10AC9716D7040A004A975A /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A10AC9516D7040A004A975A /* MainStoryboard_iPad.storyboard */; };
 		9A10AC9A16D7040A004A975A /* REMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A10AC9916D7040A004A975A /* REMViewController.m */; };
+		9A10ACA116D70485004A975A /* IMG_5719.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A10ACA016D70485004A975A /* IMG_5719.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		9A10AC9616D7040A004A975A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		9A10AC9816D7040A004A975A /* REMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = REMViewController.h; sourceTree = "<group>"; };
 		9A10AC9916D7040A004A975A /* REMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = REMViewController.m; sourceTree = "<group>"; };
+		9A10ACA016D70485004A975A /* IMG_5719.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_5719.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		9A10AC8116D70409004A975A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9A10ACA016D70485004A975A /* IMG_5719.jpg */,
 				9A10AC8216D70409004A975A /* VacationPics-Info.plist */,
 				9A10AC8316D70409004A975A /* InfoPlist.strings */,
 				9A10AC8616D70409004A975A /* main.m */,
@@ -168,6 +171,7 @@
 				9A10AC9116D7040A004A975A /* Default-568h@2x.png in Resources */,
 				9A10AC9416D7040A004A975A /* MainStoryboard_iPhone.storyboard in Resources */,
 				9A10AC9716D7040A004A975A /* MainStoryboard_iPad.storyboard in Resources */,
+				9A10ACA116D70485004A975A /* IMG_5719.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +283,7 @@
 				GCC_PREFIX_HEADER = "VacationPics/VacationPics-Prefix.pch";
 				INFOPLIST_FILE = "VacationPics/VacationPics-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -290,6 +295,7 @@
 				GCC_PREFIX_HEADER = "VacationPics/VacationPics-Prefix.pch";
 				INFOPLIST_FILE = "VacationPics/VacationPics-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
